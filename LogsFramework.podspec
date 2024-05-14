@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
  s.swift_version = '5.10'
  
  s.source = { :git => "https://github.com/shubhamDarmwar/LogsFramework.git", :tag => s.version }
- s.source_files = "LogsFramework/Share/**/*.swift"
+ s.source_files = "LogsFramework/Share/*.swift"
 
  s.ios.deployment_target = '10.0'
- s.ios.source_files = "LogsFramework/iOS/**/*.swift"
+ s.ios.source_files = "LogsFramework/iOS/*.swift"
 
 
 end
